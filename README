@@ -1,8 +1,9 @@
 LitLR (version 0.0.1, 12/18/2013)
 =================================
 
-LitLR is a minimal literate programming framework for LaTeX and R that
-uses a subset of [Knitr's](http://yihui.name/knitr/) functionality.
+LitLR is a minimal reproducible research framework for LaTeX and R
+that uses a subset of [Knitr's](http://yihui.name/knitr/)
+functionality.
 
 The main (only) advantage of LitLR is that it extracts R code from
 ordinary LaTeX files that can be compiled directly to dvis or pdfs
