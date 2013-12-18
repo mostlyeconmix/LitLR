@@ -1,0 +1,8 @@
+LitLR news
+==========
+
+Version 0.0.1
+-------------
+* Minimal working version of code --- a LaTeX style file (litlr.sty)
+  and an R script (litlr.R)
+* Minimal example file with instructions in the README
