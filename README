@@ -11,6 +11,32 @@ whether or not the R code has run.
 This package has just been started and should not be considered
 production-ready. Use it for fun, and use it at your own risk!
 
+Use
+---
+
+First, run
+
+    latex example.tex
+
+and notice that the document ends, "which is ?."  Then run
+
+    Rscript litlr.R example.tex
+    Rscript example.R
+    latex example.tex
+
+and observe that the question mark has been replaced with a number.
+The main benefit of this package is that the first instance of
+
+    latex example.tex
+
+runs without error, which can be useful when working collaboratively
+or if the R code takes a long time to execute.
+
+Dependencies
+------------
+* `LaTeX` and the `listings` package
+* `R` and the `knitr` package
+
 License
 -------
 
