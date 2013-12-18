@@ -1,0 +1,38 @@
+Litlr (version 0.0.0, 12/18/2013)
+=================================
+
+Litlr is a minimal literate programming framework for LaTeX and R that
+uses a subset of [Knitr's](http://yihui.name/knitr/) functionality.
+
+The main (only) advantage of Litlr is that it extracts R code from
+ordinary LaTeX files that can be compiled directly to dvis or pdfs
+whether or not the R code has run.
+
+This package has just been started and should not be considered
+production-ready. Use it for fun, and use it at your own risk!
+
+License
+-------
+
+Litlr is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2 of the License, or (at your
+option) any later version.
+
+Litlr is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+for more details.
+
+You should have received a copy of the GNU General Public License
+along with Litlr; if not, see <http://www.gnu.org/licenses/>.
+
+Contact
+-------
+
+Litlr is developed and maintained by Gray Calhoun
+<gray@clhn.co>. Please file bug reports in the project's bug tracker:
+<https://github.com/grayclhn/litlr/issues> and email Gray if you have
+any other questions or concerns.
+
+Copyright (C) 2013 Gray Calhoun
