@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{litlr}
+
+\title{Example document for LitLR}
+\author{Gray Calhoun}
+\date{Dec 18, 2013}
+
+% Setup for the listings package (included automatically by litlr).
+\lstset{language=R, columns=fixed, basicstyle=\ttfamily,
+  commentstyle=\rmfamily}
+
+\begin{document}
+\maketitle
+\noindent
+We write some text, then it's all like
+\begin{lstlisting}
+  Y <- rcauchy(30)
+\end{lstlisting}
+and we want to know \lstinline|median(Y)|, which is \Rcall{median(Y)}.
+
+\end{document}
